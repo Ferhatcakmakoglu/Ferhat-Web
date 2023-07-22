@@ -78,7 +78,7 @@
 
   function displayError(thisForm, error) {
     thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.error-message').innerHTML = error;
+    thisForm.querySelector('.error-message').innerHTML = "Your Message Could Not Be Sent Due To Technical Glitch. Try Again Later";
     thisForm.querySelector('.error-message').classList.add('d-block');
   }
 
